@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 70px;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid red;
+}
+#nav>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+    
+}
+#nav>a:hover{
+    color: red;
+}
+#Myform{
+    /* height: 70px; */
+    /* background-color: blueviolet; */
+    margin: 20px auto;
+    width: 550px;
+    padding: 20px;
+    border: 2px solid red ;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://cdn.pixabay.com/photo/2020/09/01/06/00/sky-5534319_960_720.jpg)
+    
+
+}
+#Myform:hover{
+    background-color: aqua;
+}
+
+/* #Myform>form>label{
+    color: rgb(11,8 ,10);
+} */
+
+/* td{
+    padding: 10px;
+    padding-left: 15px;
+} */
+#btn>td{
+    text-align: center;
+    /* height: 70px; */
+    /* width: 100px; */
+    /* background-color: aliceblue; */
+}
+button{
+    height: 40px;
+    width: 100px;
+    background-color:#00CB79;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;  
+    
+}
+button:hover{
+    background-color: green;
+}
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    
+  }
+
+  th {
+    background-color: #ddd;
+  }
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+
+ #profile{
+    height: 88vh;
+    width: 100%;
+    background-color:yellow;
+    display: flex;
+    justify-content: space-around;
+} 
+#box{
+    height: 165px;
+    width: 350px;
+    background-color: #FD0075;
+}
+
