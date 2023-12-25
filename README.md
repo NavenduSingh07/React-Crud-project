@@ -11,9 +11,9 @@
   "react-dom": "^17.0.2",
   "react-router-dom": "^5.3.0",
   // other dependencies...
-}
-`
-**Install **
+}`
+
+**Install**
 
 `npm install axios`
 
